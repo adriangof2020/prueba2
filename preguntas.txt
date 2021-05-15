@@ -1,0 +1,9 @@
+si si tengo dos ramaas 1 y 2
+modifico en la uno la linea a
+modifico en la 2 la linea z
+luego hago merge como master la rama 1
+ahora modifico de la rama 2 la linea z
+hago merge desde master eso me traera conflicto?
+ahora modifico de la rama 2 la linea a
+hago merge desde master eso me traera conflicto?                                           
+     

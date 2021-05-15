@@ -1,0 +1,31 @@
+clase 2 de git y github
+git init     empezar un repositorio
+git add biografia.txt    le dices que existe un archivo
+git commit -m "version 1"  guardas los cambios  -m "version 1" para dejar anotaciones
+git add .  guardas cambios que hayas hecho al archivo en el repositorio
+git commit -m"cambios a version 1"   lo renombras si deseas
+git status   te indica como estas llendo.
+git show  te muestra todos los cambios historicos cuando se hicieron y quien los hizo
+git log biografia.txt  en este caso ese es el nombre del archivo te muestra el historial
+git push te permite enviar archivos a un repositorio remoto
+git pull te permite traer archivos de un repositorio remoto
+
+clase 3 linea de comandos
+
+pwd te dice donde estas
+cd / (me lleva al home,),   el simbolo ~ (me dice que estoy en el hogar de los documentos), 
+			    el simbolo / (me dice que estoy en la raiz del disco), 
+ls muestra los archivos listados por defecto en la raiz del disco
+ls -al que me muestre todos los archivos y los muestre en una lista incluso los ocultos( el espacio despues de ls indica que
+el comando principal es ls)
+clear es para limpiar o control l
+.. es para retroceder . devuelve el actual o avanzar
+mkdir nombre de la carpeta crear carpeta
+touch me permite crear un archivo vacio
+cat nombre de archivo muestra el contenido
+rm mas nombre de archivo borro los archivo o carpetas
+history muestra el historial de archivos
+rm --help muestra todas las maneras de usarlo o otras opciones
+!numero de secuencia me devuelve el comando que use en esa secuencia que sale en el history
+
+

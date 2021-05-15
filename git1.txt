@@ -1,0 +1,63 @@
+clase 2 de git y github
+git init     empezar un repositorio lo haces dentro de la carpeta o ubicacion donde quieres que este tu matriz de codigos
+git add biografia.txt    le dices que existe un archivo
+git commit -m "version 1"  guardas los cambios  -m "version 1" para dejar anotaciones
+git add .  guardas cambios que hayas hecho al archivo en el repositorio , todo archivo o cambio para que sea guardado en el
+staying se hace con ese comando, luego para ponerlo en el repositorio se usa el commit
+git commit -m"cambios a version 1"   lo renombras si deseas
+git status   te indica como estas llendo. osea cual es el estado del archivo
+git show  te muestra todos los cambios historicos cuando se hicieron y quien los hizo
+git log biografia.txt  en este caso ese es el nombre del archivo,  te muestra el historial
+git push te permite enviar archivos a un repositorio remoto
+git pull te permite traer archivos de un repositorio remoto
+code abre el editor de textos code
+control n en code abre un archivo nuevo
+control s en code guarda el archivo
+git rm nombre de archivo remueve el archivo y lo deja en la memoria ram, luego si realmente quieres
+quitarlo del staying entoces usas rm --cached nombre del archivo, si desearas ponerlo en el staying
+habria que usar add otra vez
+git config muestra las configuraciones si le agredo --list lo muestra en una lista si le agrego --show-origin
+me muestra donde estan las configuraciones guardadas
+git config --global user.name "adrian"  creas el usuario
+git config --global user.email "adrian@dfdfdf.com"  creas el email
+estos son necesarios para saber quien hizo los cambios
+cuando realizo un cambio al archivo y pongo git status me indicara que se ha realizado un cambio
+ahora lo que sigue seria usar git add nombre del archivo, si son varios archivo pongo git add . el punto engloba todos 
+los archivo para no estar escribiendo los nombres de todos los archivos
+cuando me olvido de poner nombre a los commit me sale el editor de codigos de git que se llama vin
+entonces escribo el nombre con shit + i luego presiono esc shitf z z
+git diff mas codigo del git log (nombre de archivo) de preferencia poner el mas antiguo primero saldra en rojo
+ luego un espacio y el mas reciente que saldra en verde
+git reset codigodelog --soft devuelve todo a la version de ese codigo, lo que este en   el staying se queda ahi cosa que si hago commit es 
+como sino hubiera hecho nada
+git reset codigodelog --hard devuelve todo a esa version ya nose puede regresar
+git diff me dice cual es la diferencia entre los archivos en staying y el directorio o disco duro
+git log --stat veo en que archivos se hicieron los cambios
+con la letra q si es muy extenso salgo
+git checkout mas codigo de log que quiero ver mas nombre del arcnivo  me permite ver esa version
+es como si estuviera en staying y solo faltara hacer commit para que sea permanente
+si hago despues git checkout master mas nombre del archivo me regresa a la ultima version
+git clone mas la url de donde esta el servidor como usar git init
+esto trar una coppia del master y de todos los cambios al repositorio local
+con git push envio los cambios al repositorio global o servidor
+git pull me trae los cambio actualizados del servidos a mi repositorio
+git commit -a te hace los add y commit a archivos que ya antes le he dado add si le pongo --am +"mensaje" ya no lo hago desde vin
+git branch mas nombre de rama, creo una rama
+git branch veo cuantas ramas hay
+git merge donde lo use es donde se volvera la rama principal o master
+git merge + el nombre de la rama que quiero fucionar
+si hay confictos code te muestra cuales son, una vez que se solucionan hay que hacer el commit para que
+quede guardado
+Cuando uso repositorio como git hub, una vez que ya esta creado en clone copio la url en https
+en git pongo git remote add origin + url creo el origen remoto
+git remote  me muestra que hay un origen
+git remote -v me muestra cual es el origen para enviar y traer cosas
+git push origin master  le dice a git que envie a origin ( donde esta el repositorio remoto) lo de master
+cuando tienes algo en un repositorio externo, y ese es el master, si tienes en tu repositorio local
+algo que quieres poner en el externo entonces debes asegurarte que tengas las mismas ramas
+sino deberas traer primero con pull la ramta master externa y de ahi ya lo puedes enviar agregando tu rama
+git pull origin master traes el master externo de esta manera al repositorio local
+git pull origin master --allow-unrelated-histories
+git remote rm origin elimina el origin
+en git hub elijo la carpeta que quiero ver luego voy a blame y veo quien hizo los CAMBIOS
+tambien puedo darle al lapiz de editar y hacer cambios a los codigos
